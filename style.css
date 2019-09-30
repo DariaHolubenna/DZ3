@@ -1,0 +1,92 @@
+
+body{
+    margin: 0;
+}
+header{
+    width: 100%;
+    height: 150px;
+    background-color: lightsteelblue;
+    position: relative;
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;
+}
+
+img{
+    width: 300px;
+    margin-top: -10px;
+    /* align-items: flex-start; */
+    position: relative;
+
+    left: 20px;
+}
+/* .dws-menu *{
+    padding: 0;
+} */
+.dws-menu ul,
+.dws-menu li {
+    list-style: none;    
+}
+.dws-menu > ul{
+    display: flex;
+}
+
+.dws-menu > ul li a{
+    display: block;
+    padding: 5px 10px 15px;
+    flex-wrap: wrap;
+    font-size: 35px;
+    color: blue;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all 0.3s ease;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d2dfed+0,c8d7eb+26,bed0ea+51,a6c0e3+51,afc7e8+62,bad0ef+75,99b5db+88,799bc8+100;Grey+Blue+Gloss+%231 */
+background: #d2dfed; /* Old browsers */
+background: -moz-linear-gradient(top,  #d2dfed 0%, #c8d7eb 26%, #bed0ea 51%, #a6c0e3 51%, #afc7e8 62%, #bad0ef 75%, #99b5db 88%, #799bc8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #d2dfed 0%,#c8d7eb 26%,#bed0ea 51%,#a6c0e3 51%,#afc7e8 62%,#bad0ef 75%,#99b5db 88%,#799bc8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #d2dfed 0%,#c8d7eb 26%,#bed0ea 51%,#a6c0e3 51%,#afc7e8 62%,#bad0ef 75%,#99b5db 88%,#799bc8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2dfed', endColorstr='#799bc8',GradientType=0 ); /* IE6-9 */
+}
+
+.dws-menu > ul li{
+    margin: 30px;
+    border: 1px solid blue;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.dws-menu li a:hover{
+background-color: lightsteelblue;
+color: blue;
+transition: all 0.3s ease;
+
+}
+
+.dws-menu li ul{
+position: absolute;
+min-width: 200px;
+display: none;
+}
+
+.dws-menu li > ul li{
+border: 1px lightsteelblue solid;
+}
+
+.dws-menu li > ul li a{
+padding: 10px;
+text-transform: none;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#deefff+0,98bede+100;Blue+3D+%2310 */
+background: #deefff; /* Old browsers */
+background: -moz-linear-gradient(top,  #deefff 0%, #98bede 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #deefff 0%,#98bede 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #deefff 0%,#98bede 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#deefff', endColorstr='#98bede',GradientType=0 ); /* IE6-9 */
+
+}
+
+.dws-menu li:hover > ul{
+display: block;
+}
